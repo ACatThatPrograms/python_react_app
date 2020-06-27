@@ -1,0 +1,27 @@
+.img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+
+  &.drop {
+    background-image: url('../../images/drop.jpg');
+  }
+
+  &.gate {
+    background-image: url('../../images/gate.jpg');
+  }
+
+  .none {
+    display: none;
+  }
+
+}
